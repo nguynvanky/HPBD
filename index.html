@@ -20,6 +20,16 @@
             <div class="s6"></div>
         </div>
     </div>
+    <audio style="visibility: hidden;" id="audio" controls>
+        <source src="de-choat-full-ver-nguon-jombie.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
 </body>
+<script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+        var audio = document.getElementById("audio");
+        audio.play();
+    });
+</script>
 
 </html>
