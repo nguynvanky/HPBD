@@ -27,8 +27,10 @@
 </body>
 <script>
     document.addEventListener("DOMContentLoaded", function (event) {
-        var audio = document.getElementById("audio");
-        audio.play();
+        setTimeout(function () {
+            var audio = document.getElementById("audio");
+            audio.play();
+        }, 1000)
     });
 </script>
 
